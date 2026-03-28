@@ -7,7 +7,6 @@ name = "pytest-pudb"
 version = "0.7.0"
 description = "Pytest PuDB debugger integration"
 readme = "README.rst"
-license = "MIT"
 authors = [{name = "Michael Elovskikh", email = "wronglink@gmail.com"}]
 requires-python = ">=3.8"
 dependencies = [
@@ -52,6 +51,7 @@ dev = [
 
 [tool.setuptools]
 py-modules = ["pytest_pudb"]
+license-files = ["LICENSE"]
 
 [tool.hatch.envs.test]
 dependencies = [
