@@ -1,0 +1,4 @@
+# UV package manager configuration
+# Install dependencies: uv sync
+# Run tests: uv run pytest
+# Format/lint: uv run ruff check . && uv run ruff format .
